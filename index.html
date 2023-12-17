@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iceland</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600&family=Fauna+One&family=GFS+Neohellenic&family
+  =Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,600;1,800&display=swap" rel="stylesheet">
+ 
+ <!--Links-->
+  <link rel="stylesheet" href="Styles/main.css">
+  <link rel="icon" href="./Images/Iceland logo.png">
+  <link rel="backgroundpic" href="./Images/Landing Page Iceland.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#"><img class="logo Iceland" src="./Images/Iceland logo.png" alt="Your Logo" onclick="scrollToTop()"></a>
+  
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#places">Places</a></li>
+      <li><a href="#booknow">Book Now</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>  
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <div class="landing">
+      <div class="text">
+        <h1>Visit Iceland <br>TODAY</h1>
+        <h2>The land of ice and fire</h2>
+        <a href="#booknow"class="cta">BOOK NOW</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h3>About Us</h3>
+        <p>Welcome to our journey
+           through the mesmerizing beauty of Iceland! We are passionate about sharing the wonders of this enchanting land with fellow travelers. Our mission 
+           is to provide you with an unforgettable experience, blending adventure and comfort. Founded in 2000, we have been exploring the unique landscapes, 
+           captivating culture, and rich history of Iceland. Our team of dedicated professionals is committed to ensuring that your trip to Iceland becomes a cherished memory. 
+           Join us as we guide you through the land of fire and ice, where every moment is an opportunity for discovery. Whether you're an avid adventurer or someone seeking a peaceful retreat, 
+           Iceland has something special for everyone.</p>
+      </div>
+      <div class="about-image">
+        <img src="Images/About.jpg" alt="About Us Image">
+      </div>
+    </div>
+    
+  </section>
+
+<!-- Places Section -->
+<section id="places">
+  <h3 class="places-text"> Places</h3>
+  <div class="places-container">
+      <div class="place">
+          <img src="Images/Reynisfjara Black Sand Beach.jpg" alt="Reynisfjara Black Sand Beach">
+          <div class="caption">Reynisfjara Black Sand Beach</div>
+      </div>
+      <div class="place">
+          <img src="Images/Seljalandsfoss.jpg" alt="Seljalandsfoss">
+          <div class="caption">Seljalandsfoss</div>
+      </div>
+      <div class="place">
+          <img src="Images/Skógafoss.jpg" alt="Skógafoss">
+          <div class="caption">Skógafoss</div>
+      </div>
+      <div class="place">
+          <img src="Images/sky-phenomenon.jpg" alt="The Northern Lights">
+          <div class="caption">The Northern Light</div>
+      </div>
+      <div class="place">
+          <img src="Images/Thingvellir National Park.jpg" alt="Thingvellir National Park">
+          <div class="caption">Thingvellir National Park</div>
+      </div>
+      <div class="place">
+          <img src="Images/greyscale-icebergs.jpg" alt="Jökulsárlón Glacier Lagoon">
+          <div class="caption">Jökulsárlón Glacier Lagoon</div>
+      </div>
+  </div>
+</section>
+
+ <!-- Book Now  Section -->
+ <section id="booknow">
+  <div class="booknow-container">
+      <div class="booknow-text">
+          <h3>Book Your Trip Now</h3>
+          <p>Experience the wonders of Iceland. Fill out the form below to secure your spot!</p>
+      </div>
+      <div class="form-container">
+          <form action="#" method="post">
+              <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="phone">Phone:</label>
+                  <input type="tel" id="phone" name="phone">
+              </div>
+
+              <div class="form-group">
+                  <label for="visitDate">Visit Date:</label>
+                  <input type="date" id="visitDate" name="visitDate" required>
+              </div>
+
+              <div class="form-group">
+                  <label for="paymentOption">Payment Option:</label>
+                  <select id="paymentOption" name="paymentOption" required>
+                      <option value="creditCard">Credit Card</option>
+                      <option value="paypal">PayPal</option>
+                      <option value="bankTransfer">Bank Transfer</option>
+                  </select>
+              </div>
+              <div class="additional-comments">
+          <label for="message">Additional Comments:</label>
+          <textarea id="message" name="message" rows="mp4"></textarea>
+      </div>
+
+              <button type="submit">Book Now</button>
+          </form>
+      </div>
+  </div>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="contact-container">
+    <div class="contact-text">
+      <h3>Feel Free To <br> Connect <br> With Us</h3>
+       <p>Stay in touch with us and follow our journey through the stunning landscapes of Iceland.
+         Feel free to reach out if you have any questions or if you simply want to share your own experiences.
+          We'd love to hear from you!</p>
+    </div>
+    <div class="contact-form">
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="contactname" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="contactemail" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message:</label>
+          <textarea id="contactmessage" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+  <div class="testimonial-container">
+    <h3>What People Are Saying</h3>
+      <!-- Testimonial Slide 1 -->
+      <div class="testimonial-slide active">
+          <img src="Images/woman1.png" class="testimonial-photo" alt="Person 1">
+          <div class="testimonial-caption">
+              <h5>Jane Smith</h5>
+              <p>" "Exceeded my expectations. The team went above and beyond to deliver exceptional results. Thank you!"</p>
+          </div>
+      </div>
+
+      <!-- Testimonial Slide 2 -->
+      <div class="testimonial-slide">
+          <img src="Images/man1.png" class="testimonial-photo" alt="Person 2">
+          <div class="testimonial-caption">
+            <h5>Bob Johnson</h5>
+            <p>"Impressive attention to detail and great communication. A pleasure to work with. Will definitely return!"</p>
+          </div>
+      </div>
+      <!--slide 3-->
+      <div class="testimonial-slide">
+        <img src="Images/woman2.png" class="testimonial-photo" alt="Person 3">
+        <div class="testimonial-caption">
+            <h5>Emily Davis</h5>
+            <p>"Outstanding experience from start to finish. The team is talented and dedicated. Five stars!"</p>
+        </div>
+        <!--slide 4 -->
+    </div>
+    <div class="testimonial-slide">
+      <img src="Images/man2.png" class="testimonial-photo" alt="Person 4">
+      <div class="testimonial-caption">
+          <h5>Alex White</h5>
+          <p>"Fantastic service! Quick turnaround and excellent customer support. I'm a satisfied customer."</p>
+      </div>
+  </div>
+
+            <!-- Testimonial Navigation -->
+            <div class="testimonial-navigation">
+              <span class="testimonial-prev" onclick="changeTestimonial(-1)">❮</span>
+              <span class="testimonial-next" onclick="changeTestimonial(1)">❯</span>
+          </div>
+      </div>
+  </section>
+
+
+<!-- Footer Section -->
+<footer id="footer">
+  <div class="footer-container">
+      <div class="footer-column">
+          <h4>About Us</h4>
+          <p>Join us as we guide you through the land of fire and ice, where every moment is an opportunity for discovery.
+             Whether you're an avid adventurer or someone seeking a peaceful retreat, Iceland has something special for everyone..</p>
+      </div>
+      <div class="footer-column">
+          <h4>Contact Us</h4>
+          <p>123 Street, Rotterdam</p>
+          <p>Email: iceland.com</p>
+          <p>Phone: +1 234-567-890</p>
+      </div>
+      <div class="footer-column">
+          <h4>Navigation Links</h4>
+          <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#places">Places</a></li>
+          </ul>
+      </div>
+  </div>
+  <div id="scroll-to-top" onclick="scrollToTop()">
+    <a href="#"><img src="Images/arrowup.png" alt="Scroll to Top"></a>
+    </div>
+    <div id="copyright">
+      &copy; 2023 Iceland. All rights reserved.
+  </div>
+</footer>
+
+ <script src="Scripts\app.js"></script>
+
+</body>
+</html>
