@@ -75,6 +75,7 @@ body, html {
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
+    margin-left: 35px;
   }
   
   /* menu */
@@ -83,6 +84,7 @@ body, html {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
+    margin-right: 88px;
   }
   
   /* menu icon */
