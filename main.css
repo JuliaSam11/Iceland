@@ -84,7 +84,7 @@ body, html {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
-    margin-right: 88px;
+    margin-right: 130px;
   }
   
   /* menu icon */
